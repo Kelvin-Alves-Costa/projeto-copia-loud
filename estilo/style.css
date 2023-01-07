@@ -75,14 +75,14 @@ section div#club > h1{
     font-size: 2.2em;
     margin-bottom: 8px;
     width: 100%;
-    padding: 0px 5% 0px 15%;
+    padding: 0px 5% 0px 5%;
 
 }
 section div#club > p{
     padding-left: 25px;
     font-size: 1em;
     margin-bottom: 30px;
-    padding: 0px 5% 0px 15%;
+    padding: 0px 5% 0px 5%;
 }
 section div#club > input#button{
     height: 100%;
