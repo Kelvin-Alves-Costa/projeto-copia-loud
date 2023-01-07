@@ -1,0 +1,22 @@
+links
+imagem de fundo: "https://images.prismic.io/loud/705d445c-bae4-4422-9e2f-f1f390d2a099_LOUD_Club_Web.jpg?auto=compress,format"
+Favicon: "https://www.google.com/s2/favicons?domain=loud.gg"
+
+imagem só um joguin "https://loud.gg/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0072%2F9671%2F2755%2Fproducts%2FCAMISETAS.jpg%3Fv%3D1626386575&w=2048&q=80"
+Imagem Shortin Curtin "https://loud.gg/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0072%2F9671%2F2755%2Fproducts%2FDSC9696.jpg%3Fv%3D1626373372&w=2048&q=80"
+Imagem Boné Capudin "https://loud.gg/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0072%2F9671%2F2755%2Fproducts%2F2MB-8869.jpg%3Fv%3D1626389235&w=2048&q=80"
+
+modelo 1 "https://loud.gg/_next/image?url=https%3A%2F%2Fimages.prismic.io%2Floud%2F4dc9547a-9479-4b72-9b3f-df9b0e06b3bf_NOVO3.jpg%3Fauto%3Dcompress%2Cformat&w=640&q=100"
+modelo 2 "https://loud.gg/_next/image?url=https%3A%2F%2Fimages.prismic.io%2Floud%2F3a415c71-654f-4c6e-8116-85c6d2c2ce22_REDUZIDO1.jpg%3Fauto%3Dcompress%2Cformat&w=640&q=100"
+modelo 3 "https://loud.gg/_next/image?url=https%3A%2F%2Fimages.prismic.io%2Floud%2Fcb46bcf6-b6b3-4c81-b7a0-9211c86995d0_CASTRIN.jpg%3Fauto%3Dcompress%2Cformat&w=640&q=100"
+
+influencer 1 "https://loud.gg/_next/image?url=https%3A%2F%2Fisaw-instagram-media.sfo2.digitaloceanspaces.com%2Fposts%2F317391121_849027263044026_4569169432024323451_n.jpg&w=2048&q=50"
+influencer 2 "https://loud.gg/_next/image?url=https%3A%2F%2Fisaw-instagram-media.sfo2.digitaloceanspaces.com%2Fposts%2F317663606_885173045971701_8903285886673566830_n.jpg&w=2048&q=50"
+influencer 3 "https://loud.gg/_next/image?url=https%3A%2F%2Fisaw-instagram-media.sfo2.digitaloceanspaces.com%2Fposts%2F317967343_535988915060782_6192327197076457368_n.jpg&w=2048&q=50"
+influencer 4 "https://loud.gg/_next/image?url=https%3A%2F%2Fisaw-instagram-media.sfo2.digitaloceanspaces.com%2Fposts%2F318177658_1530197144071722_699381223032421128_n.jpg&w=2048&q=50"
+
+Logo Youtube: "https://prismic-io.s3.amazonaws.com/loud/5d6f73d9-ecda-4e40-bd8a-81ca0aa80035_Icon+awesome-youtube.svg"
+Logo instagram:"https://prismic-io.s3.amazonaws.com/loud/26250d46-544a-4fd2-ae37-27731fa13aed_Icon+awesome-instagram.svg"
+Logo twitter: "https://prismic-io.s3.amazonaws.com/loud/3569a8d5-66c0-4508-b7f5-4a9feea35c8e_Icon+awesome-twitter.svg" 
+Logo facebook:"https://prismic-io.s3.amazonaws.com/loud/dcd3495e-84d5-4a52-b351-ece58df0bc99_Icon+awesome-facebook-square.svg"
+Logo discord: "https://prismic-io.s3.amazonaws.com/loud/ee5db740-63aa-404a-8ec0-4b6ddd35d302_Icon+awesome-discord.svg"

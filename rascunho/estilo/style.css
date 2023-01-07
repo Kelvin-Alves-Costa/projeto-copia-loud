@@ -1,0 +1,271 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anybody&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+:root{
+    --backgroundimage:"https://images.prismic.io/loud/705d445c-bae4-4422-9e2f-f1f390d2a099_LOUD_Club_Web.jpg?auto=compress,format";
+    --cordefundo:#000000;
+    --corfundo2:#151515;
+    --corfundo3:#252525;
+    --corfundo4:#E2E2E2;
+    --corfundorodape:#191919;
+    --corletra1:white;
+    --corletra2:#0F0F0F;
+    --letrapadrao: 'Anybody', cursive;
+    --letradestaque:'Poppins', sans-serif;
+}
+html, body{
+    height: 100vh;
+    width: 100vw;
+}
+body{
+    background-color: var(--cordefundo);
+    color: var(--corletra1);
+    font-family: var(--letrapadrao);
+    text-transform: uppercase;
+}
+
+header{
+    height: 50px;
+    padding:18px 48px;
+    width: 100vw;
+}
+nav a{
+    font-size: 1.2em;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    padding: 0px 6px ;
+
+}
+nav a.nav-item{
+    padding-left: 92px;
+}
+nav svg#buy{
+   position: relative;
+   top: 5px;
+}
+header div{
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.427);
+    margin-top: 25px;
+}
+main h1{
+    font-size: 4em;
+    text-align: justify;
+}
+main h2{
+    text-align: center;
+    font-size: 4em;
+}
+main h3{
+    text-align: center;
+    font-size: 3.5em;
+}
+main p{
+    font-size: 1em;
+}
+section{
+    background-color: var(--corfundo);
+    color: var(--corletra1);
+}
+section p#destaque{
+    font-family: var(--letradestaque);
+}
+div{
+    color: var(--corletra1);
+}
+section div#container{
+    float: right;
+    height: 600px;
+    width: 50%;
+    background: url("https://images.prismic.io/loud/705d445c-bae4-4422-9e2f-f1f390d2a099_LOUD_Club_Web.jpg?auto=compress,format") black no-repeat scroll center center;
+    background-size: cover;
+}
+section div#container-1{
+    float: left;
+    height: 600px;
+}
+section div#container-1 h1{
+    padding: 99px 0px 0px 95px;
+}
+section div#container-1 p{
+    padding: 5px 0px 0px 95px;
+}
+section div#container-1  input{
+    height: 75px;
+    width: 30vw;
+    font-size: 1.5em;
+    margin: 15px 0px 0px 95px;
+    background-color: #13FF00;
+}
+section div#container-1 button:hover{
+    box-sizing: border-box;
+    background-color: var(--cordefundo);
+    color: #13FF00;
+    border: 2px solid #13FF00;
+    transform: scale(1s);
+}
+div#destaque{
+    background-color: var(--corfundo4);
+    color: var(--corletra2);
+}
+div#buy{
+    background-color:var(--corfundo2);
+}
+div#buy h2{
+    padding: 90px 0px 90px 0px;
+    margin: center;
+}
+div#buy-1{
+    background-color: var(--corfundo3);
+}
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+    
+}
+div.img{
+    height: 750px;
+    width: 40%;
+}
+div#img-1{
+    background: black url("https://loud.gg/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0072%2F9671%2F2755%2Fproducts%2FCAMISETAS.jpg%3Fv%3D1626386575&w=2048&q=80") no-repeat scroll center center;
+    background-size: cover;
+    margin-right: -90px;
+
+}
+div#img-1:hover{
+    border: 4px solid #13FF00;
+}
+div#img-2{
+    background: var(--corfundo2) url("https://loud.gg/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0072%2F9671%2F2755%2Fproducts%2FDSC9696.jpg%3Fv%3D1626373372&w=2048&q=80") no-repeat scroll center center;
+    background-size: cover;
+    margin-left: -90px;
+}
+div#img-2:hover{
+    border: 4px solid #13FF00;
+}
+div#img-3{
+    background: var(--corfundo2) url("https://loud.gg/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0072%2F9671%2F2755%2Fproducts%2F2MB-8869.jpg%3Fv%3D1626389235&w=2048&q=80") no-repeat scroll center center;
+    background-size: cover;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    padding: 0px 0px 0px 0px;
+
+}
+div#img-3:hover{
+    border: 4px solid #13FF00;
+}
+div#buy-1{
+    padding-bottom: 60px;
+    background-color: var(--corfundo2);
+}
+div#img-4{
+    background: black url("https://loud.gg/_next/image?url=https%3A%2F%2Fimages.prismic.io%2Floud%2F4dc9547a-9479-4b72-9b3f-df9b0e06b3bf_NOVO3.jpg%3Fauto%3Dcompress%2Cformat&w=640&q=100") no-repeat scroll center center;
+    background-size: cover;
+}   
+div#img-5{
+    background: black url("https://loud.gg/_next/image?url=https%3A%2F%2Fimages.prismic.io%2Floud%2F3a415c71-654f-4c6e-8116-85c6d2c2ce22_REDUZIDO1.jpg%3Fauto%3Dcompress%2Cformat&w=640&q=100") no-repeat scroll center center;
+    background-size: cover;
+}   
+div#img-6{
+    background: black url("https://loud.gg/_next/image?url=https%3A%2F%2Fimages.prismic.io%2Floud%2Fcb46bcf6-b6b3-4c81-b7a0-9211c86995d0_CASTRIN.jpg%3Fauto%3Dcompress%2Cformat&w=640&q=100") no-repeat scroll center center;
+    background-size: cover;
+}   
+.info-img{
+    padding: 690px 0px 0px 10px;
+    margin: 0px 0px 0px 0px;
+    color: black;
+}
+div#lookbook{
+    background-color: var(--corfundo3);
+    color: var(--corletra1);
+    margin: 0px 0px 0px 0px;
+}
+div#lookbook > h2{
+    padding: 80px 0px 60px 0px;
+}
+div#flex-container-2{
+    margin: 0px 0px 60px 0px;
+    background-color: var(--corfundo3);
+}
+div.img-look{
+    height: 400px;
+    width: 28%;
+}
+div#destaque h3{
+    padding: 40px 0px 0px 0px;
+}
+div#destaque p{
+    font-size: 1.3em;
+    text-align: center;
+    padding: 9px 0px 36px 0px;
+}
+div#flex-container-3{
+    display: flex;
+    justify-content: left;
+    background-color: var(--corfundo4);
+    padding: 0px 0px 70px 0px;
+}
+div.img-destaque{
+    height: 300px;
+    width: 30%;
+}
+div#img-7{
+    background: black url("https://loud.gg/_next/image?url=https%3A%2F%2Fisaw-instagram-media.sfo2.digitaloceanspaces.com%2Fposts%2F317391121_849027263044026_4569169432024323451_n.jpg&w=2048&q=50") no-repeat scroll center center;
+    background-size: cover;
+    margin: 0px 45px 0px 0px;
+}
+div#img-8{
+    background: black url("https://loud.gg/_next/image?url=https%3A%2F%2Fisaw-instagram-media.sfo2.digitaloceanspaces.com%2Fposts%2F317663606_885173045971701_8903285886673566830_n.jpg&w=2048&q=50") no-repeat scroll center center;
+    background-size: cover;
+    margin: 0px 45px 0px 0px;
+}
+div#img-9{
+    background: black url("https://loud.gg/_next/image?url=https%3A%2F%2Fisaw-instagram-media.sfo2.digitaloceanspaces.com%2Fposts%2F317967343_535988915060782_6192327197076457368_n.jpg&w=2048&q=50") no-repeat scroll center center;
+    background-size: cover;
+    margin: 0px 45px 0px 0px;
+}
+div#img-10{
+    background: black url("https://loud.gg/_next/image?url=https%3A%2F%2Fisaw-instagram-media.sfo2.digitaloceanspaces.com%2Fposts%2F318177658_1530197144071722_699381223032421128_n.jpg&w=2048&q=50") no-repeat scroll center center;
+    background-size: cover;
+    margin: 0px 45px 0px 0px;
+}
+footer{
+    padding-bottom:0px ;
+}
+footer nav{
+    padding: 50px 0px 35px 0px;
+    display:inline-block ;
+    
+}
+footer p{
+    display: inline-block;
+}
+footer nav >  a, p{
+    font-size: 0.9em;
+
+}
+.icons{
+    padding-bottom: 3%;
+}
+.social-media{
+    padding-right: 1%;
+    height: 20px;
+    width: 20px;
+}
+footer > div#row{
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.427);
+    margin: -18px 0px 50px 47px;
+}
+footer svg{
+    padding-right:28% ;
+    padding-left: 5%;
+}
