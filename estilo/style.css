@@ -61,7 +61,6 @@ header > div#row{
 }
 main{
     margin: auto;
-    width: 90vw;
 }
 section{
     color: white;
@@ -71,17 +70,19 @@ section div#club{
     text-align: justify;
 }
 section div#club > h1{
-    padding-left:25px ;
     font-weight: bold;
     text-align: justify;
     font-size: 2.2em;
     margin-bottom: 8px;
-;
+    width: 100%;
+    padding: 0px 5% 0px 15%;
+
 }
 section div#club > p{
     padding-left: 25px;
     font-size: 1em;
     margin-bottom: 30px;
+    padding: 0px 5% 0px 15%;
 }
 section div#club > input#button{
     height: 100%;
@@ -98,13 +99,12 @@ section  div#imagem{
     display: block;
     background:white url("https://images.prismic.io/loud/705d445c-bae4-4422-9e2f-f1f390d2a099_LOUD_Club_Web.jpg?auto=compress,format") no-repeat scroll center center;
     background-size: cover;
-    height: 400px;
-    width: 500px;
-    margin: 50px 0px 0px -7%;
+    height: 350px;
+    width: 100%;
+    margin: 50px 0px 0px 0px;
 }
 section div#compras{
     background-color: #151515;   
-    width: ;
 }
 section div#compras > h1{
     padding: 80px 0px 30px 0px;
