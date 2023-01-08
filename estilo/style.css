@@ -18,6 +18,7 @@
     --fontepadrao: 'instruction';
     --fontebutton: 'pixel';
 }
+
 body, html{
     height: 100vh;
     background-color: black; 
@@ -119,6 +120,14 @@ section div#club > input#button{
 
     border: 2px solid black;
 }
+section div#club > input#button:hover{
+    background-color:black ;
+    color: #13ff00;
+    
+    border: 2px solid #13ff00;
+
+    transform: .3s;
+}
 section div#compras{
     background-color: #151515;
 }
@@ -218,4 +227,51 @@ section div#imagem-9{
 section div#imagem-10{
     background: white url("https://loud.gg/_next/image?url=https%3A%2F%2Fisaw-instagram-media.sfo2.digitaloceanspaces.com%2Fposts%2F318177658_1530197144071722_699381223032421128_n.jpg&w=2048&q=50") no-repeat scroll center center;
     background-size: cover;
+}
+footer{
+    padding: 70px;
+}
+footer div#flex-container-5{
+    display:flex;
+    align-items: center; 
+    flex-direction: column;  
+}
+footer ul > li{
+    list-style-type: none;
+}
+footer ul > li > a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+footer > div > a{
+    
+    text-align: center;
+    padding-bottom: 20px;
+
+    text-decoration: none;
+    color: white;
+}
+footer #row-footer{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-color:rgba(255, 255, 255, 0.354);
+    height: 1px;
+    width: 100%;
+}
+div #social-media{
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+}
+div #media{
+    padding-right: 5px;
+    height: 20px;
+    width: 20px;
+    margin-bottom: 30px;
+}
+footer svg{
+    margin-top: 30px;
 }
