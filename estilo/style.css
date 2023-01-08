@@ -1,15 +1,32 @@
 @charset "UTF-8";
+
+@font-face {
+    font-family: 'pixel';
+    src: url(../fontes/pixel.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'instruction';
+    src: url(../fontes/Instruction.otf) format('opentype');
+}
 *{
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
 }
+:root{
+    --fontepadrao: 'instruction';
+    --fontebutton: 'pixel';
+}
 body, html{
     height: 100vh;
-    background-color: black;
+    background-color: black; 
+    color: white;
+
 }
 body{
     overflow-x: hidden;
+    font-family: var(--fontepadrao);
 }
 h1{
     text-align: center;
@@ -72,17 +89,17 @@ section div#club{
 section div#club > h1{
     font-weight: bold;
     text-align: justify;
-    font-size: 2.2em;
+    font-size: 2.5em;
     margin-bottom: 8px;
     width: 100%;
-    padding: 0px 5% 0px 5%;
+    padding: 0px 5% 0px 10%;
 
 }
 section div#club > p{
     padding-left: 25px;
     font-size: 1em;
     margin-bottom: 30px;
-    padding: 0px 5% 0px 5%;
+    padding: 0px 5% 0px 10%;
 }
 section div#club > input#button{
     height: 100%;
@@ -93,7 +110,9 @@ section div#club > input#button{
     background-color: #13ff00;
     color: black;
     font-weight: bolder;
-    font-size: 1em;
+    font-size: 1.2em;
+    font-family:var(--fontebutton);
+    cursor: pointer;
 }
 section  div#imagem{
     display: block;
@@ -104,11 +123,55 @@ section  div#imagem{
     margin: 50px 0px 0px 0px;
 }
 section div#compras{
-    background-color: #151515;   
+    background-color: #151515;
+    padding-bottom: 60px; 
 }
 section div#compras > h1{
-    padding: 80px 0px 30px 0px;
+    padding: 80px 0px 50px 0px;
 
 }
+section div.img-2{
+    display: block;
+    margin: auto;
+    height: 500px;
+    width: 90%;
+}
+section div#imagem-1{
+    background: white url("https://loud.gg/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0072%2F9671%2F2755%2Fproducts%2FCAMISETAS.jpg%3Fv%3D1626386575&w=2048&q=80") no-repeat scroll center center;
+    background-size: cover;
+    margin-bottom: 5%;
+}
+section  p.info-img{
+    padding: 100% 0px 0px 1%;
+    color: black;
+}
+section div#imagem-2{
+    background: white url("https://loud.gg/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0072%2F9671%2F2755%2Fproducts%2FDSC9696.jpg%3Fv%3D1626373372&w=2048&q=80") no-repeat scroll center center;
+    background-size: cover;
+    margin-bottom: 5%;
+}
 
-
+section div#imagem-3{
+    background: white url("https://loud.gg/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0072%2F9671%2F2755%2Fproducts%2F2MB-8869.jpg%3Fv%3D1626389235&w=2048&q=80") no-repeat scroll center center;
+    background-size: cover;
+}
+section div#lookbook{
+    background-color: #252525;
+}
+section div#lookbook > h1{
+    padding: 60px 0px 30px 0px;
+}
+section div#imagem-4{
+    background: white url("https://loud.gg/_next/image?url=https%3A%2F%2Fimages.prismic.io%2Floud%2F4dc9547a-9479-4b72-9b3f-df9b0e06b3bf_NOVO3.jpg%3Fauto%3Dcompress%2Cformat&w=640&q=100") no-repeat scroll center center;
+    background-size: cover;
+    margin-bottom: 5%;
+}
+section div#imagem-5{
+    background: white url("https://loud.gg/_next/image?url=https%3A%2F%2Fimages.prismic.io%2Floud%2F3a415c71-654f-4c6e-8116-85c6d2c2ce22_REDUZIDO1.jpg%3Fauto%3Dcompress%2Cformat&w=640&q=100") no-repeat scroll center center;
+    background-size: cover;
+    margin-bottom: 5%;
+}
+section div#imagem-6{
+    background: white url("https://loud.gg/_next/image?url=https%3A%2F%2Fimages.prismic.io%2Floud%2Fcb46bcf6-b6b3-4c81-b7a0-9211c86995d0_CASTRIN.jpg%3Fauto%3Dcompress%2Cformat&w=640&q=100") no-repeat scroll center center;
+    background-size: cover;
+}
