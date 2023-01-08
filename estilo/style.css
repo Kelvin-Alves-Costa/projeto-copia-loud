@@ -36,6 +36,7 @@ header{
     position: relative;
     color: white;
     padding: 20px 10px;
+    margin-bottom: 30px;
 }
 header > a#Loud > svg{
     position: absolute;
@@ -67,7 +68,6 @@ header > span#menu{
     font-size: 1.5em;
     color: white;
 
-    transform: translateX(75%);
 
 }
 header > div#row{
@@ -77,101 +77,145 @@ header > div#row{
     display: none;
 }
 main{
+    width: 100%;
     margin: auto;
 }
-section{
-    color: white;
-    padding: 50px 0px;
+section div.flex-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+section div#imagem{
+    background: white url("https://images.prismic.io/loud/705d445c-bae4-4422-9e2f-f1f390d2a099_LOUD_Club_Web.jpg?auto=compress,format") no-repeat scroll center center;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    margin-top: 50px;
 }
 section div#club{
-    text-align: justify;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 section div#club > h1{
-    font-weight: bold;
     text-align: justify;
-    font-size: 2.5em;
-    margin-bottom: 8px;
-    width: 100%;
-    padding: 0px 5% 0px 10%;
-
+    padding: 30px 55px 0px 0px;
 }
 section div#club > p{
-    padding-left: 25px;
-    font-size: 1em;
-    margin-bottom: 30px;
-    padding: 0px 5% 0px 10%;
+    text-align: justify;
+    margin: 10px 0px 0px 0px;
 }
 section div#club > input#button{
-    height: 100%;
-    width: 90%;
-    padding: 12px;
-    margin-left: 25px;
-    border: 2px solid black;
-    background-color: #13ff00;
-    color: black;
-    font-weight: bolder;
-    font-size: 1.2em;
-    font-family:var(--fontebutton);
-    cursor: pointer;
-}
-section  div#imagem{
-    display: block;
-    background:white url("https://images.prismic.io/loud/705d445c-bae4-4422-9e2f-f1f390d2a099_LOUD_Club_Web.jpg?auto=compress,format") no-repeat scroll center center;
-    background-size: cover;
-    height: 350px;
     width: 100%;
-    margin: 50px 0px 0px 0px;
+    height: 50px;
+    margin: 30px 0px 0px 0px;
+
+    background-color:#13ff00 ;
+    color: black;
+    font-family: var(--fontebutton);
+    font-size: 1em;
+    text-align: center;
+
+    border: 2px solid black;
 }
 section div#compras{
     background-color: #151515;
-    padding-bottom: 60px; 
 }
 section div#compras > h1{
-    padding: 80px 0px 50px 0px;
+    padding: 60px 0px 50px 0px;
 
+    text-align: center;
 }
 section div.img-2{
-    display: block;
-    margin: auto;
+    position: relative;
     height: 500px;
-    width: 90%;
+    width: 80%;
+    margin-bottom: 20px;
 }
 section div#imagem-1{
-    background: white url("https://loud.gg/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0072%2F9671%2F2755%2Fproducts%2FCAMISETAS.jpg%3Fv%3D1626386575&w=2048&q=80") no-repeat scroll center center;
+    background: white url( "https://loud.gg/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0072%2F9671%2F2755%2Fproducts%2FCAMISETAS.jpg%3Fv%3D1626386575&w=2048&q=80") no-repeat scroll center center;
     background-size: cover;
-    margin-bottom: 5%;
-}
-section  p.info-img{
-    padding: 110% 0px 0px 2%;
-    color: black;
 }
 section div#imagem-2{
     background: white url("https://loud.gg/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0072%2F9671%2F2755%2Fproducts%2FDSC9696.jpg%3Fv%3D1626373372&w=2048&q=80") no-repeat scroll center center;
     background-size: cover;
-    margin-bottom: 5%;
 }
-
 section div#imagem-3{
     background: white url("https://loud.gg/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0072%2F9671%2F2755%2Fproducts%2F2MB-8869.jpg%3Fv%3D1626389235&w=2048&q=80") no-repeat scroll center center;
     background-size: cover;
+    margin-bottom: 40px;
 }
-section div#lookbook{
-    background-color: #252525;
+section p.info-img{
+    position: absolute;
+    float: left;
+    top: 85%;
+    left: 2%;
+
+    color: black;
 }
-section div#lookbook > h1{
-    padding: 60px 0px 30px 0px;
+section div#flex-container-3{
+    flex-direction: column;    
+    justify-content: space-around;
+}
+section div.img-3{
+    height: 400px;
+    width: 70%;
+    margin-bottom: 30px;
 }
 section div#imagem-4{
     background: white url("https://loud.gg/_next/image?url=https%3A%2F%2Fimages.prismic.io%2Floud%2F4dc9547a-9479-4b72-9b3f-df9b0e06b3bf_NOVO3.jpg%3Fauto%3Dcompress%2Cformat&w=640&q=100") no-repeat scroll center center;
     background-size: cover;
-    margin-bottom: 5%;
+
 }
 section div#imagem-5{
     background: white url("https://loud.gg/_next/image?url=https%3A%2F%2Fimages.prismic.io%2Floud%2F3a415c71-654f-4c6e-8116-85c6d2c2ce22_REDUZIDO1.jpg%3Fauto%3Dcompress%2Cformat&w=640&q=100") no-repeat scroll center center;
     background-size: cover;
-    margin-bottom: 5%;
 }
 section div#imagem-6{
     background: white url("https://loud.gg/_next/image?url=https%3A%2F%2Fimages.prismic.io%2Floud%2Fcb46bcf6-b6b3-4c81-b7a0-9211c86995d0_CASTRIN.jpg%3Fauto%3Dcompress%2Cformat&w=640&q=100") no-repeat scroll center center;
+    background-size: cover;
+}
+section div#lookbook{
+    background-color: #252525;
+    padding-bottom: 60px;
+}
+section div#lookbook > h1{
+    padding: 60px 0px 40px 0px;
+}
+section div#destaques{
+    background-color: #E2E2E2;
+    color: black;
+    padding:0px 0px 45px 0px
+}
+section div#destaques > h1{
+    padding: 35px 0px 0px 0px;
+}
+section div#destaques > p{
+    text-align: center;
+    padding: 10px 0px 40px 0px;
+}
+section div#flex-container-4{
+    justify-content: space-around;
+    flex-direction: row;
+}
+section div.img-4{
+    height: 100px;
+    width: 20%;
+}
+section div#imagem-7{
+    background: white url("https://loud.gg/_next/image?url=https%3A%2F%2Fisaw-instagram-media.sfo2.digitaloceanspaces.com%2Fposts%2F317391121_849027263044026_4569169432024323451_n.jpg&w=2048&q=50") no-repeat scroll center center;
+    background-size: cover;
+}
+section div#imagem-8{
+    background: white url("https://loud.gg/_next/image?url=https%3A%2F%2Fisaw-instagram-media.sfo2.digitaloceanspaces.com%2Fposts%2F317663606_885173045971701_8903285886673566830_n.jpg&w=2048&q=50") no-repeat scroll center center;
+    background-size: cover;
+}
+section div#imagem-9{
+    background: white url("https://loud.gg/_next/image?url=https%3A%2F%2Fisaw-instagram-media.sfo2.digitaloceanspaces.com%2Fposts%2F317967343_535988915060782_6192327197076457368_n.jpg&w=2048&q=50") no-repeat scroll center center;
+    background-size: cover;
+}
+section div#imagem-10{
+    background: white url("https://loud.gg/_next/image?url=https%3A%2F%2Fisaw-instagram-media.sfo2.digitaloceanspaces.com%2Fposts%2F318177658_1530197144071722_699381223032421128_n.jpg&w=2048&q=50") no-repeat scroll center center;
     background-size: cover;
 }
