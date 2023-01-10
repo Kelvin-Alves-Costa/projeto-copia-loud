@@ -90,21 +90,21 @@ section div#club{
     flex-direction: column;
 }
 section div#club > h1{
-    padding: 30px 0px 0px 0px;
-    margin: 0px 0px 0px 40px;
+    padding: 66px 0px 0px 0px;
+    margin: 0px 0px 0px -32px;
 
     text-align: justify;
     font-size: 2em;
 }
 section div#club > p{
     text-align: justify;
-    margin: 10px 0px 0px 40px;
+    margin: 10px 0px 0px -32px;
     font-size: 0.7em;
 }
 section div#club > input#button{
-    width: calc(100% - 40px);
+    width: calc(100% + 55px);
     height: 50px;
-    margin: 30px 0px 0px 40px;
+    margin: 30px 0px 0px -32px;
 
     background-color:#13ff00 ;
     color: black;
