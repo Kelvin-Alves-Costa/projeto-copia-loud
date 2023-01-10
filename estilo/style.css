@@ -45,6 +45,7 @@ header > div > a#Loud{
 header > div > nav#items{
     margin-top: 50px;
     flex-direction: column;
+    transform: translateX(-27%);
 }
 header > div > nav#items > ul{
     list-style-type: none;

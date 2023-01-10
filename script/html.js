@@ -15,7 +15,7 @@ function Menu() {
         clube.style.color = 'white'
     }else{
         items.style.display = 'block'
-        Loud.style.transform = 'translateX(245%)'
+        Loud.style.transform = 'translateX(218%)'
         header.style.backgroundColor = 'white'
         menu.style.color = 'black'
         flexnav.style.color = 'black'
