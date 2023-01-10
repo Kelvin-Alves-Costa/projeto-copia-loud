@@ -60,6 +60,7 @@ header > div > nav#items > ul > li > a{
 header > div > span#menu{
     cursor: pointer;
     align-self:flex-start;
+    transform: translateX(-12px);
 }
 header > div#row{
     background-color: rgba(255, 255, 255, 0.354);
@@ -84,23 +85,25 @@ section div#imagem{
     margin-top: 50px;
 }
 section div#club{
-    height: 100%;
     display: flex;
-    align-items: center;
     flex-direction: column;
 }
 section div#club > h1{
+    padding: 30px 0px 0px 0px;
+    margin: 0px 0px 0px 40px;
+
     text-align: justify;
-    padding: 30px 55px 0px 0px;
+    font-size: 2em;
 }
 section div#club > p{
     text-align: justify;
-    margin: 10px 0px 0px 0px;
+    margin: 10px 0px 0px 40px;
+    font-size: 0.7em;
 }
 section div#club > input#button{
-    width: 100%;
+    width: calc(100% - 40px);
     height: 50px;
-    margin: 30px 0px 0px 0px;
+    margin: 30px 0px 0px 40px;
 
     background-color:#13ff00 ;
     color: black;
