@@ -1,0 +1,24 @@
+@media screen and (min-width:768px) and (max-width:992px) {
+    body{
+        background-color: red;
+    }
+    header > nav#items{
+        display: inline-block;
+        position: relative;
+        margin-top: 0px; 
+    }
+    header > nav#items > ul{
+        
+    }   
+    header > nav#items > ul > li{ 
+        display: inline-block;
+        background-color: black;
+        /*margin: 0px 26px 0px 0px;*/
+    }
+    header > nav#items > ul > li > a {
+        color: white;
+    } 
+    header > span#menu{
+        display: none;
+    }
+}

@@ -33,43 +33,33 @@ h1{
     text-align: center;
     font-size: 2em;
 }
-header{
-    position: relative;
-    color: white;
-    padding: 20px 10px;
-    margin-bottom: 30px;
+header > div.flex-nav-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
-header > a#Loud > svg{
-    position: absolute;
-    left: 4%;
+header > div > a#Loud{
     display: inline-block;
-    text-align: left;
-    font-size: 0.5em;
-
+    margin-left: 30px;
 }
-header > nav#items{
-    display: none;
-    margin-top: 40px;
+header > div > nav#items{
+    margin-top: 50px;
+    flex-direction: column;
 }
-header > nav#items > ul > li{
-    display: block;
+header > div > nav#items > ul{
+    list-style-type: none;
+}
+header > div > nav#items > ul > li{
+    margin: 20px;
     text-align: center;
-    padding: 10px 1px;
-    background-color: white;
 }
-header > nav#items > ul > li > a{
+header > div > nav#items > ul > li > a{
     text-decoration: none;
-    color: black;
-}
-header > span#menu{
-    position: absolute;
-    left: 90%;
-    cursor: pointer;
-    
-    font-size: 1.5em;
     color: white;
-
-
+}
+header > div > span#menu{
+    cursor: pointer;
+    align-self:flex-start;
 }
 header > div#row{
     background-color: rgba(255, 255, 255, 0.354);
