@@ -79,6 +79,7 @@ section div.flex-container{
     flex-direction: column;
 }
 section div#imagem{
+    max-width: 600px;
     background: white url("https://images.prismic.io/loud/705d445c-bae4-4422-9e2f-f1f390d2a099_LOUD_Club_Web.jpg?auto=compress,format") no-repeat scroll center center;
     background-size: cover;
     height: 400px;
@@ -131,9 +132,10 @@ section div#compras > h1{
     text-align: center;
 }
 section div.img-2{
+    max-width: 600px;
     position: relative;
-    height: 500px;
     width: 80%;
+    height: 500px;
     margin-bottom: 20px;
 }
 section div.img-2:hover{

@@ -1,24 +1,126 @@
+/* Tablet */
 @media screen and (min-width:768px) and (max-width:992px) {
     body{
-        background-color: red;
-    }
-    header > nav#items{
-        display: inline-block;
-        position: relative;
-        margin-top: 0px; 
-    }
-    header > nav#items > ul{
-        
-    }   
-    header > nav#items > ul > li{ 
-        display: inline-block;
         background-color: black;
-        /*margin: 0px 26px 0px 0px;*/
     }
-    header > nav#items > ul > li > a {
-        color: white;
-    } 
-    header > span#menu{
+    header > div.flex-nav-container{
+        padding-top: 15px;
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    header > div > a#Loud{
+        margin-left: 0px;
+        transform: translateX(14px);
+    }
+    header > div > nav#items{
+        width: 100%;
+        margin-top: 0px;
+        transform: translateX(0%);
+    }
+    header > div > nav#items > ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    header > div > nav#items > ul > li{
+        margin: 0px;
+    }
+    header > div > span#menu{
         display: none;
+    }
+    header > div#row{
+        display: block;
+    }
+    section{
+        margin: none;
+    }
+    section div#club{
+        width: 45%;
+    }
+    section div#club > h1{
+        margin: 0px 0px 0px 20px;
+        padding: 0px 0px 0px 0px;
+        width: 100%;
+        height: 30%;
+    }
+    section div#club > p{
+        margin: 0px 0px 0px 20px;
+        height: 30%;
+    }
+    section div#club > input#button{
+        margin: 20px 0px 0px 20px;
+        width: 90%;
+    }
+    section div.flex-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    section div#imagem{
+        width: 55%;
+        margin-top: 0px;
+    }
+    section > div#compras > div#flex-container-2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    section div.img-2{
+        height: 580px;
+        width: 48%;
+    }
+    section div#flex-container-3{
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    section div.img-3{
+        height: 350px;
+        width: 29%;
+    }
+    section div#flex-container-4{
+        flex-wrap: wrap;
+    }
+    section div.img-4{
+        width: 20%;
+        height: 280px;
+    }
+    footer div#flex-container-5{
+        display: flex;
+        flex-direction: row;                                                                        
+        flex-wrap: wrap-reverse;
+    }
+    footer > div > nav{
+        order: 4;
+    }
+    footer > div > nav > ul > li{
+        display: inline-block;
+    }
+    footer a#direitos{
+        order: 5;
+    }
+    footer div#row-footer{
+        order: 3;
+    }
+    footer svg{
+        order: 1;
+        margin-top: 0px;
+    }
+    div #social-media {
+        order: 2;
+    }    
+
+}   
+@media screen and (min-width:992px) and (max-width:1200px){
+    body{
+        background-color: blue;
+    }
+}
+@media screen and (min-width:1200px) {
+    body{
+        background-color: purple;
     }
 }
